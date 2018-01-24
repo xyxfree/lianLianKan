@@ -1,0 +1,116 @@
+body { 
+    font-weight : bold; 
+    background : url(../img/body.gif) repeat; 
+} 
+#whole { 
+    border : 1px double #c07ca1; 
+    border-width : 5px; 
+    width : 800px; 
+    height : 560px; 
+    position : relative; 
+} 
+#gamePanel { 
+    margin: 1px; 
+    width : 602px; 
+    height : 560px; 
+    position : absolute; 
+} 
+#pieces { 
+    margin-top : 90px; 
+    border : 1px solid plum; 
+    width : 546px; 
+    height : 434px; 
+    position: relative; 
+} 
+#pieces .piece { 
+    width : 32px; 
+    height : 36px; 
+    position : relative; 
+    cursor : pointer; 
+    float : left; 
+} 
+#pieces .track { 
+    width : 32px; 
+    height : 36px; 
+    position : relative; 
+    float : left; 
+} 
+#pieces .track2 { 
+    width : 32px; 
+    height : 36px; 
+    position : relative; 
+    float : left; 
+    background : red; 
+} 
+#gameLogo { 
+    top : 90px; 
+    border : 1px solid #999999; 
+    left : 607px; 
+    width : 187px; 
+    height : 173px; 
+    background : url(../img/logo.gif); 
+    position: absolute; 
+} 
+#scorePanel { 
+    border : 1px solid #f0087c; 
+    left : 607px; 
+    top : 270px; 
+    width : 187px; 
+    height : 30px; 
+    position : absolute; 
+    font: 24px/30px '宋体';
+    color: aqua;
+} 
+#score { 
+    border : 1px solid #05f519; 
+    left : 607px; 
+    top : 330px; 
+    width : 187px; 
+    height : 30px; 
+    text-align: center;
+    font: 24px/30px '宋体';
+    color: rgb(41, 6, 238);
+    position : absolute; 
+} 
+#timePanel { 
+    border : 1px solid #f0087c; 
+    left : 607px; 
+    top : 380px; 
+    width : 187px; 
+    height : 30px; 
+    position : absolute; 
+    font: 24px/30px '宋体';
+    color: aqua;
+} 
+#time { 
+    border : 1px solid #9ef007; 
+    left : 607px; 
+    top : 435px; 
+    width : 187px; 
+    height : 30px; 
+    position : absolute; 
+    color: red;
+    font: 24px/30px '宋体';
+    text-align: center;
+} 
+#button { 
+    border : 1px solid #a606f0; 
+    left : 607px; 
+    top : 480px; 
+    width : 187px; 
+    height : 40px; 
+    position : absolute; 
+} 
+input{
+    padding: 0;
+    margin: 0;
+    background: none;
+    outline: none;
+    border:1px solid rgb(231, 108, 108);
+    display: inline-block;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: pink;
+}
